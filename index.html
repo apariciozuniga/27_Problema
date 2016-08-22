@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bootstrap: Grid System</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<script src="js/jquery-1.11.3.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	   
+
+	    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+	    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->	
+	</head>
+	<body>
+		<!-- Inserta tu código aqui -->
+		<!-- Incluir todos tus scripts apartir de este punto -->
+	    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+	    <header>
+
+		   <div class="container-fluid">
+		  		<div class="row">
+		  			<h2 class="col-lg-6">Site name</h2>  	
+		  				<nav class="navbar visilble-lg ">
+		  					<div class="navbar-header">	
+			  					<div class=" col-xs-12 col-lg-6">
+					  				<span class="glyphicon glyphicon-home">Noticias</span>
+					  				<span class="glyphicon glyphicon-home">Enlaces | RSS</span>
+				  					<button type="collapse nav-collapse" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  						<span class="icon-bar  barra"></span>
+			  						<span class="icon-bar barra"></span>
+			  						<span class="icon-bar barra"></span>
+			  						</button>
+		  						</div>
+		  						<div class="col-lg-6 col-xs-12 visible-lg ">
+					  				 <form action="">
+						  				 <input type="text" placeholder="Ingresa tu busqueda">
+						  				 <button  class="btn clearfix "> Buscar</button>
+									</form>
+								</div>
+							</div>
+					</div>
+		  				<div class="collapse navbar-collapse visible-lg menu" id="myNavbar">
+				  			<ul class="nav nav-tabs">
+					  			<li ><a data-toggle="tab" href="#home">Bienvenidos</a></li>
+					  			<li><a data-toogle="tab" href="#">Actualidades</a></li>
+					  			<li><a data-toogle="tab" href="#">En directo</a></li>
+					  			<li><a data-toogle="tab" href="#">Reporte financiero</a></li>
+					  			<li><a data-toogle="tab" href="#">Nuestra oferta</a></li>
+					  			<li class="active"><a data-toogle="tab" href="#">De nosotros a usted</a></li>
+				  			</ul>
+		  				</div>
+		  			</nav> 
+	    </header>
+	    <article><!--aqui empieza mi article de 6 col-->
+	     		<div class="row"><!--tambien va el aside de 6 col-->
+	     			<div class="col-xs-12  col-md-6 col-lg-6">
+			     		<h6>Articulo | publicado el 09/10/15</h6>
+			     		<h3>Lorem ipsum et diligat gentris</h3>
+			     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae et unde similique nesciunt quo ut reprehenderit, sequi animi perferendis, voluptatum iste ducimus impedit eligendi tempore doloremque eveniet placeat laudantium aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga magnam placeat sunt est, sequi? </p>
+			     <div class="row">
+			     	<div class="col-lg-4">
+			     		<span class="glyphicon glyphicon-bookmark">Ver más...</span>
+			     	</div>
+			     	<div class="col-lg-8">
+			     		<span class="glyphicon glyphicon-bookmark">Etiquetas :  
+					    <a href="#">lorem</a>
+					    <a href="#">ipsum</a>
+					    <a href="#">diligat</a>	
+					    </span>
+			     	</div>
+			     </div>
+			     <hr>
+	    		<div class="row"><!--segundo article-->
+	    			<div class="col-xs-12  col-md-6 col-lg-12">
+			    		<button type="button" class="web">Webzone </button><!--boton de web-->
+			    		<h6 class=""> Preguntas | publicado el 09/10/15</h6>
+			    		<h3>Lorem ipsum et diligat gentris</h3>
+			     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae et unde similique nesciunt quo ut reprehenderit, sequi animi perferendis, voluptatum iste ducimus impedit eligendi tempore doloremque eveniet placeat laudantium aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga magnam placeat sunt est, sequi?</p>
+			     		<!--aqui va mi span-->	
+			    <div class="row">
+			     	<div class="col-lg-4">
+			     		<span class="glyphicon glyphicon-bookmark">Ver más...</span>
+			     	</div>
+			     	<div class="col-lg-8">
+			     		<span class="glyphicon glyphicon-bookmark">Etiquetas :  
+					    <a href="#">lorem</a>
+					    <a href="#">ipsum</a>
+					    <a href="#">diligat</a>	
+					    </span>
+			     	</div>
+			     </div>
+			     <hr>
+
+	    			</div>
+	   			</div>
+	   			<div class="row">
+	   				<div class=" col-lg-12 ">
+	   					<h4>Articulo  publicado el 09/10/15</h4>
+			     		<h3> Etiam lorem et suspira nostres</h3>
+			     		<img src="image.jpg" class="foto" alt="pomeranian">
+			     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae et unde similique nesciunt quo ut reprehenderit, sequi animi perferendis, voluptatum iste ducimus impedit eligendi tempore doloremque eveniet placeat laudantium aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga magnam placeat sunt est, sequi?</p>
+			    <div class="row">
+			     	<div class="col-lg-4">
+			     		<span class="glyphicon glyphicon-bookmark">Ver más...</span>
+			     	</div>
+			     	<div class="col-lg-8">
+			     		<span class="glyphicon glyphicon-bookmark">Etiquetas :  
+					    <a href="#">lorem</a>
+					    <a href="#">ipsum</a>
+					    <a href="#">diligat</a>	
+					    </span>
+			     	</div>
+			     </div>
+			     	<hr>
+	   				</div>
+	   			</div>
+	   			<div class="row">
+	   				<div class="col-lg-12">
+	   					<h3> Etiam lorem et suspira nostres</h3>
+	   					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae et unde similique nesciunt quo ut reprehenderit, sequi animi perferendis, voluptatum iste ducimus impedit eligendi tempore doloremque eveniet placeat laudantium aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga magnam placeat sunt est, sequi?
+	   					</p>
+	   			<div class="row">
+			     	<div class="col-lg-4">
+			     		<span class="glyphicon glyphicon-bookmark">Ver más...</span>
+			     	</div>
+			     	<div class="col-lg-8">
+			     		<span class="glyphicon glyphicon-bookmark">Etiquetas :  
+					    <a href="#">lorem</a>
+					    <a href="#">ipsum</a>
+					    <a href="#">diligat</a>	
+					    </span>
+			     	</div>
+			    </div>	
+	   			</div>
+	   			</div>
+	     	</div>
+	    <aside>
+	    			<div class="col-xs-12 col-md-6 col-lg-6">
+	    		<div class="row">
+	    			<div class="col-xs-12 col-lg-6 back"><!--video-->
+	    				<iframe width="330" height="225" src="https://www.youtube.com/embed/cLKzQQBx9Uw" frameborder="0" allowfullscreen></iframe>
+	    				<h2>Claire Dupon</h2>
+	    				<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cum sapiente repudiandae laudantium eaque temporibus laboriosam, magni cupiditate sunt ad eligendi.</p>
+	    					<span class="text-left">publicado 9/10/15</span>
+			     			<span class="glyphicon glyphicon-bookmark">Ver más...</span>
+	    			</div>
+	    			<div class="col-xs-12 col-lg-6 visible-lg"><!--mas informacion-->
+			    		<h2 class="text-center">Más información</h2>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">Finanzas y fiscalización</span></li>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">Inversión y equipos</span></li>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">Medio ambiente</span></li>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">Habitat/Urbanismo</span></li>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">Sanidad</span></li>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">Social y Servicios</span></li>
+			    		<li class="lista"><span class="glyphicon glyphicon-bookmark">transporte</span></li>
+	    			</div>	
+	    		</div>
+			    <div class="row"><!--aside con col-6-->
+			    	<div class="col-xs-12 col-lg-6">
+			    		<button class="agend">Agenda</button>
+			    <div class=" row">
+			    		<div class="col-xs-12 col-lg-12 clearfix ">
+			    		<div class="enero">23 Enero</div><!--primer cuadro de fechas-->
+			    		<h5>Lorem ipsum el diligat</h5>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque alias provident expedita nobis quis! <span>De 23 a 28 Diciembre 2015</span></p>
+			    		<div class="enero">23 Enero</div><!--segundo cuadro de fechas-->
+			    		<h5>Lorem ipsum el diligat</h5>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque alias provident expedita nobis quis! <span>De 23 a 28 Diciembre 2015</span></p>
+			    		<div class="enero">23 Enero</div>
+			    		<h5>Lorem ipsum el diligat</h5>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque alias provident expedita nobis quis! <span>De 23 a 28 Diciembre 2015</span></p>
+			    		<div class="enero">23 Enero</div>
+			    		<h5>Lorem ipsum el diligat</h5>
+			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque alias provident expedita nobis quis! <span>De 23 a 28 Diciembre 2015</span></p>
+			    		<hr>
+			    		</div>
+			    	</div>
+			    </div>
+			    	<div class="col-xs-6 col-lg-6 visible-lg magaz">
+			    		<div class="box-gray">
+			    			<h4>MAGAZINE</h4>
+			    			<h3>ECODEFI</h3>
+			    			<h6>ENQUETE</h6>
+			    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quia maiores blanditiis voluptatem quaerat amet assumenda debitis itaque ducimus, repellat enim, eos facere sed nam, modi dicta quibusdam, esse quisquam.</p>
+			    			<h6>PREGUNTAS</h6>
+			    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quis ut dolores.</p>
+			    		</div>
+			    		<div class="box-gray">
+			    			<h4>MAGAZINE</h4>
+			    			<h3>ACCIONES COMUNES</h3>
+			    			<h6>ENQUETE</h6>
+			    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quia maiores blanditiis voluptatem quaerat amet assumenda debitis itaque ducimus, repellat enim, eos facere sed nam, modi dicta quibusdam, esse quisquam.</p>
+			    			<h6>PREGUNTAS</h6>
+			    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quis ut dolores.</p>
+			    		</div>
+			    		<div class="box-gray" >
+			    			<b>Nueva generacion de la  internet</b>
+			    		</div>	  		
+			    	</div>
+			    	<div class="row">
+			    		<div class="col-xs-12 col-lg-12 clearfix">
+				    		<h3>Más información</h3>
+				    		<h5>Localidades</h5>
+				    		<h6><b>Lorem ipsum et diligat</b></h6>
+				    		<p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit</p>
+				    		<h5>Hospimedia</h5>
+				    		<h6><b>Lorem ipsum et diligat</b></h6>	
+				    		<p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit</p>
+			    		</div>
+			    	</div>
+			    </div>
+	    		</div> 
+	    	</div>	
+	    </aside>
+	  	</article>
+		<hr>
+		<footer>
+					<div class="row">
+						<div class="col-xs-6 col-lg-2 ">
+							<h4>Rubros</h4>	
+							<ul>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Actividades</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">En directo</span></li>
+								<li class="lista">	<span class="glyphicon glyphicon-bookmark grafic">Reporte financiero</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Nuestra oferta</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">De nosotros a ustedes</span></li>
+							</ul>
+							
+						</div>
+						<div class="col-lg-3 visible-lg ">
+							<h4 class="">Expertise</h4>
+							<ul>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Finanzas y fiscalización</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Investigacion y equipos</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Medio ambiente</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Habitat/ Urbanismo</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Sanidad</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Social y servicios</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Transporte</span></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-lg-2 ">
+							<h4 class="">Suscripción</h4>
+							<ul>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Todo el fluido</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Flujo RSS para expertos</span> </li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Noticias</span></li>
+							</ul>
+						</div>
+						<div class="clearfix visible-xs-block "></div>
+						<div class="col-lg-2 col-xs-6 ">
+							<h4 class="">Nosotros</h4>
+							<ul>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">¿Quienes somos?</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Plan del sitio</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Información legal</span></li>
+							</ul>
+					
+						<div class=" col-xs-6 col-lg-2 ">
+							<h4 class="">Contacto</h4>
+							<ul>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Contáctanos</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">FAQ</span></li>
+								<li class="lista"><span class="glyphicon glyphicon-bookmark grafic">Haga sus preguntas</span></li>
+							</ul>
+						
+						</div>
+					</div>
+		</footer>
+	 	</div>
+	</body>
+</html>
